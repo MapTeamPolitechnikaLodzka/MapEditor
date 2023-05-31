@@ -1,0 +1,335 @@
+html, body, #container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    padding-top: 50px;
+}
+
+a {
+    cursor: pointer;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 0;
+}
+
+#sidebar {
+    display: block;
+    width: 250px;
+    height: 100%;
+    max-width: 100%;
+    float: left;
+}
+
+#map {
+    width: auto;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#loading {
+    position: absolute;
+    width: 220px;
+    height: 19px;
+    top: 50%;
+    left: 50%;
+    margin: -10px 0 0 -110px;
+    z-index: 20001;
+}
+
+#features {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#sidebar-hide-btn {
+    margin-top: -2px;
+}
+
+#aboutTabsContent {
+    padding-top: 10px;
+}
+
+.progress-bar-full {
+    width: 100%;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.panel-heading {
+    width: 250px;
+}
+
+.panel-body {
+    width: 250px;
+}
+
+.feature-row {
+    cursor: pointer;
+    width: 250px;
+}
+
+.sidebar-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.sidebar-table {
+    position: absolute;
+    width: 100%;
+    top: 37px;
+    bottom: 0;
+    overflow: auto;
+}
+
+.leaflet-control-layers {
+    overflow: auto;
+}
+
+.leaflet-control-layers-close {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+}
+
+.leaflet-control-layers label {
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.leaflet-control-layers-list input[type="radio"], input[type="checkbox"] {
+    margin: 2px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar .navbar-brand sup {
+    font-variant: all-small-caps;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-inverse {
+    background-size: 80px 60px;
+    background: #6b0001 linear-gradient(to bottom, #8c0205 0%, #910205 44%, #6b0001 100%) repeat-x;
+}
+
+.navbar-collapse.in {
+    overflow-y: hidden;
+}
+
+.navbar-header .navbar-icon-container {
+    margin-right: 15px;
+}
+
+.navbar-header .navbar-icon {
+    line-height: 50px;
+    height: 50px;
+}
+
+.navbar-header a.navbar-icon {
+    margin-left: 25px;
+}
+
+.typeahead {
+    background-color: #FFFFFF;
+}
+
+.tt-dropdown-menu {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 4px;
+    padding: 4px 0;
+    width: 100%;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.tt-suggestion {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 3px 10px;
+}
+
+.tt-suggestion.tt-cursor {
+    background-color: #0097CF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.tt-suggestion p {
+    margin: 0;
+}
+
+.tt-suggestion + .tt-suggestion {
+    border-top: 1px solid #ccc;
+}
+
+.typeahead-header {
+    margin: 0 5px 5px 5px;
+    padding: 3px 0;
+    border-bottom: 2px solid #333;
+}
+
+.has-feedback .form-control-feedback {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .navbar .navbar-brand {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    #sidebar {
+        display: none;
+    }
+
+    .url-break {
+        word-break: break-all;
+        word-break: break-word;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+    }
+
+    .dropdown-menu a i {
+        color: #FFFFFF;
+    }
+}
+
+/* Print Handling */
+@media print {
+    .navbar {
+        display: none !important;
+    }
+
+    .leaflet-control-container {
+        display: none !important;
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.navbar-brand > .logo {
+    width: 20px;
+    height: 30px;
+    margin-top: -6px;
+    display: inline;
+}
+
+a.navbar-brand:before {
+    content: "Mapa Politechniki Łódzkiej 2.0";
+}
+
+@media (max-width: 850px) {
+    a.navbar-brand:before {
+        content: "Mapa PŁ 2.0";
+    }
+}
+
+.campusName {
+    pointer-events: none;
+    font-size: 20px;
+}
+
+.campusName.small {
+    font-size: 15px !important;
+}
+
+.campusName .leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 0;
+    box-shadow: none;
+    margin-bottom: -30px;
+}
+
+.campusName .leaflet-popup-tip-container {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+
+    .hide-sm {
+        display: none;
+    }
+
+    .search-form {
+        position: fixed;
+        width: 55%;
+        right: 40px;
+        top: -3px;
+        margin-top: 0;
+        border-bottom: none;
+        transition: 1s width;
+    }
+
+    .full-width {
+        width: 95%;
+    }
+
+    #searchicon {
+        display: none;
+    }
+}
+
+.css-icon {
+
+}
+
+.gps_ring {
+    border: 3px solid aqua;
+    -webkit-border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -4px;
+    margin-top: -8px;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    /*opacity: 0.0*/
+}
+
+@-webkit-keyframes pulsate {
+    0% {
+        -webkit-transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        -webkit-transform: scale(1.6, 1.6);
+        opacity: 0.0;
+    }
+}

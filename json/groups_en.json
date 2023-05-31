@@ -1,0 +1,104 @@
+{
+  "w1":{
+    "name":"Faculty of Mechanical Engineering",
+    "simplename":"Mechanical",
+    "aliases": "W1",
+    "color": "#ab0000"
+  },
+  "w2":{
+    "name":"Faculty of Electrical Engineering, Electronics, Computer Science and Automation",
+    "simplename":"EEiA",
+    "aliases": "W2",
+    "color": "#0099ff"
+  },
+  "w3":{
+    "name":"Faculty of Chemical Technology",
+    "simplename":"Chemical",
+    "aliases": "W3",
+    "color": "#d6cf00"
+  },
+  "w4":{
+    "name":"Faculty of Material Technologies and Textile Design",
+    "simplename":"TMiWT",
+    "aliases": "W4",
+    "color": "#9e0a45"
+  },
+  "w5":{
+    "name":"Faculty of Biotechnology and Food Sciences",
+    "simplename":"Biotech & Food",
+    "aliases": "W5",
+    "color": "#33a100"
+  },
+  "w6":{
+    "name":"Faculty of Civil and Environmental Engineering and Architecture",
+    "simplename":"CEEA",
+    "aliases": "W6",
+    "color": "#ffb545"
+  },
+  "w7":{
+    "name":"Faculty of Technical Physics, Information Technology and Applied Mathematics",
+    "simplename":"FTI&AM",
+    "aliases": "W7",
+    "color": "#fcd154"
+  },
+  "w8":{
+    "name":"Faculty of Management and Production Engineering",
+    "simplename":"MPE",
+    "aliases": "W8",
+    "color": "#3840a8"
+  },
+  "w9":{
+    "name":"Faculty of Process and Environmental Engineering",
+    "simplename":"PEE",
+    "aliases": "W9",
+    "color": "#306100"
+  },
+  "it":{
+    "name":"IT Units",
+    "simplename":"IT Units",
+    "aliases": "it",
+    "color": "red"
+  },
+  "ou":{
+    "name":"University-wide Units",
+    "simplename":"University-wide",
+    "aliases": "ou",
+    "color": "red"
+  },
+  "pw":{
+    "name":"Inter-Faculty Units",
+    "simplename":"Inter-Faculty",
+    "aliases": "pw cti",
+    "color": "red"
+  },
+  "oa":{
+    "name":"Academic Housing Complexes",
+    "simplename":"Academic Housing",
+    "aliases": "oa dormitory housing estate",
+    "color": "red"
+  },
+  "kol":{
+    "name":"Colleges",
+    "simplename":"Colleges",
+    "aliases": "kol",
+    "color": "red"
+  },
+  "adm":{
+    "name":"Administration",
+    "simplename":"Administration",
+    "aliases": "adm",
+    "color": "red"
+  },
+  "security":{
+    "name": "Security Offices",
+    "simplename": "Security Offices",
+    "aliases": "security",
+    "color": "#404040"
+  },
+  "wbud":{
+    "name": "Currently Under Construction",
+    "simplename": "Under Construction",
+    "aliases": "wbud",
+    "color": "#A0A0A0"
+  }
+}

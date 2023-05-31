@@ -1,0 +1,104 @@
+{
+  "w1":{
+    "name":"Wydział Mechaniczny",
+    "simplename":"Mechaniczny",
+    "aliases": "W1",
+    "color": "#ab0000"
+  },
+  "w2":{
+    "name":"Wydział Elektrotechniki, Elektroniki, Informatyki i Automatyki",
+    "simplename":"EEiA",
+    "aliases": "W2",
+    "color": "#0099ff"
+  },
+  "w3":{
+    "name":"Wydział Chemiczny",
+    "simplename":"Chemiczny",
+    "aliases": "W3",
+    "color": "#d6cf00"
+  },
+  "w4":{
+    "name":"Wydział Technologii Materiałowych i Wzornictwa Tekstyliów",
+    "simplename":"TMiWT",
+    "aliases": "W4",
+    "color": "#9e0a45"
+  },
+  "w5":{
+    "name":"Wydział Biotechnologii i Nauk o Żywności",
+    "simplename":"BiNoŻ",
+    "aliases": "W5",
+    "color": "#33a100"
+  },
+  "w6":{
+    "name":"Wydział Budownictwa, Architektury i Inżynierii Środowiska",
+    "simplename":"BAiIŚ",
+    "aliases": "W6",
+    "color": "#ffb545"
+  },
+  "w7":{
+    "name":"Wydział Fizyki Technicznej, Informatyki i Matematyki Stosowanej",
+    "simplename":"FTIMS",
+    "aliases": "W7",
+    "color": "#fcd154"
+  },
+  "w8":{
+    "name":"Wydział Zarządzania i Inżynierii Produkcji",
+    "simplename":"ZIP",
+    "aliases": "W8",
+    "color": "#3840a8"
+  },
+  "w9":{
+    "name":"Wydział Inżynierii Procesowej i Ochrony Środowiska",
+    "simplename":"IPOŚ",
+    "aliases": "W9",
+    "color": "#306100"
+  },
+  "it":{
+    "name":"Jednostki IT",
+    "simplename":"Jednostki IT",
+    "aliases": "it",
+    "color": "red"
+  },
+  "ou":{
+    "name":"Jednostki Ogólnouczelniane ",
+    "simplename":"Ogólnouczelniane",
+    "aliases": "ou",
+    "color": "red"
+  },
+  "pw":{
+    "name":"Pozawydziałowe",
+    "simplename":"Pozawydziałowe",
+    "aliases": "pw cti",
+    "color": "red"
+  },
+  "oa":{
+    "name":"Osiedla Akademickie",
+    "simplename":"Osiedla Akademickie",
+    "aliases": "oa dom studenta osiedle",
+    "color": "red"
+  },
+  "kol":{
+    "name":"Kolegia",
+    "simplename":"Kolegia",
+    "aliases": "kol",
+    "color": "red"
+  },
+  "adm":{
+    "name":"Administracja",
+    "simplename":"Administracja",
+    "aliases": "adm",
+    "color": "red"
+  },
+  "security":{
+    "name": "Portiernie",
+    "simplename": "Portiernie",
+    "aliases": "security",
+    "color": "#404040"
+  },
+  "wbud":{
+    "name": "Aktualnie budowany",
+    "simplename": "W budowie",
+    "aliases": "wbud",
+    "color": "#A0A0A0"
+  }
+}

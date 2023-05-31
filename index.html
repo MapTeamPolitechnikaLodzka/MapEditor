@@ -1,0 +1,231 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#80241F">
+    <meta name="description" content="Interaktywna mapa Politechniki Łódzkiej 2.0">
+    <meta name="author" content="GeekGroup">
+    <meta name="google-site-verification" content="rJRrFOyhzNFB2U845bKT_pysRPhNDIIzp7C-iPBEVE4">
+    <title>Mapa Politechniki Łódzkiej 2.0</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/leaflet-routing-machine.css">
+    <link rel="stylesheet" href="css/MarkerCluster.css">
+    <link rel="stylesheet" href="css/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="css/L.Control.Locate.css">
+    <link rel="stylesheet" href="css/leaflet.groupedlayercontrol.css">
+    <link rel="stylesheet" href="css/easy-button.css">
+    <link rel="stylesheet" href="css/app.css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JMXKR9XVKD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JMXKR9XVKD');
+</script>
+
+</head>
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <div class="navbar-icon-container">
+                <a href="#" class="navbar-icon pull-right visible-xs" id="nav-btn"><i class="fa fa-bars fa-lg white"></i></a>
+            </div>
+          <a class="navbar-brand" href="#"><sup></sup></a>
+        </div>
+        <form class="navbar-form navbar-right search-form" role="search">
+            <div class="form-group has-feedback">
+                <input id="searchbox" type="text" placeholder="Wydział, instytut..." class="form-control">
+                <span id="searchicon" class="fa fa-search form-control-feedback"></span>
+            </div>
+        </form>
+        <div class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav">
+                <!-- <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="news-btn"><i
+                        class="fa fa-comment-o white"></i> Aktualności</a></li> -->
+                <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="contact-btn"><i class="fa fa-users white"></i> Kontakt</a></li>
+			<a href="https://cti.p.lodz.pl"><img src="images/CTI.png" style="height:40px;margin:5px;"></a>
+            </ul>
+        </div>
+        <!--/.navbar-collapse -->
+    </div>
+</div>
+
+<div id="container">
+    <div id="sidebar">
+        <div class="sidebar-wrapper">
+            <div class="panel panel-default" id="features">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Punkty na mapie</h3>
+                </div>
+                <div class="sidebar-table">
+                    <table class="table table-hover" id="feature-list">
+                        <thead class="hidden">
+                        <tr>
+                            <th>Icon</th>
+                        </tr>
+                        <tr>
+                            <th>Name</th>
+                        </tr>
+                        <tr>
+                            <th>Chevron</th>
+                        </tr>
+                        </thead>
+                        <tbody class="list"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="map"></div>
+</div>
+
+<form> 
+
+</form>
+
+
+<div id="loading">
+    <div class="loading-indicator">
+        <div class="progress progress-striped active">
+            <div class="progress-bar progress-bar-info progress-bar-full"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="featureModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title text-primary" id="feature-title"></h4>
+            </div>
+            <div class="modal-body" id="feature-info"></div>
+            <div class="modal-footer">
+                <span id="feature-back"></span>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<div class="modal fade" id="attributionModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">NAVIGATOR</h4>
+            </div>
+            <div class="modal-body">
+                <p>Interaktywna mapa Politechniki Łódzkiej 2.0</p>
+                Developed by <a href="http://gg.cti.p.lodz.pl">GEEK GROUP</a>
+                <div id="attribution"><a href="http://leafletjs.com/" target="_blank"> Leaflet</a>, © <a href="https://www.mediawiki.org" target="_blank">Wikimedia Maps</a>, Map data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors,
+                    <a href="https://github.com/bmcbride/bootleaf" target="_blank">BootLeaf</a></div>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<div class="modal fade" id="newsModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Aktualności</h4>
+            </div>
+            <div class="modal-body">
+                <div id="news-container">
+                    <ul class="list-group">
+                        <li class="list-group-item" v-for="item in news">
+                            <p class="bold"> {{item.title}} </p>
+                            <p> {{item.description}} </p>
+                            <p v-if="false"> {{item.date}} </p>
+                            <img v-if="item.imglink" :src="item.imglink">
+                            <p v-if="item.link_for_event"><a :href="item.link_for_event"> Czytaj wiecej...</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button v-bind:disabled="wait" v-on:click="getData" type="button" class="btn btn-default">Odśwież
+                </button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Kontakt</h4>
+            </div>
+            <div class="modal-body">
+                <form method="post">
+			<div class="form-group">
+			<div class="col">
+                        <h4>Znalazłeś błędy na naszej stronie ? </h4>
+                        <p>Skontaktuj się z nami a my wprowadzimy zmiany.</p>
+
+                        <h3><span class="label label-default">navpl@cti.p.lodz.pl</span></h3>
+			</div>
+			<div class="col">
+			<img src="images/CTI.png" style="margin:5px;">
+			</div>
+			</div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/typeahead.bundle.min.js"></script>
+<script src="js/handlebars.min.js"></script>
+<script src="js/list.min.js"></script>
+<script src="js/leaflet.js"></script>
+<script src="js/leaflet-routing-machine.js"></script>
+<script src="js/leaflet.markercluster.js"></script>
+<script src="js/L.Control.Locate.min.js"></script>
+<script src="js/leaflet.groupedlayercontrol.js"></script>
+<script src="js/easy-button.js"></script>
+<script src="js/vue.min.js"></script>
+<script src="js/typeHeadFunc.js"></script>
+<script src="js/newEngine.js"></script>
+<script src="js/sidebar.js"></script>
+<script src="js/layerControl.js"></script>
+<script src="js/gps.js"></script>
+<script src="js/news.js"></script>
+<script>
+</script>
+
+
+</body></html>

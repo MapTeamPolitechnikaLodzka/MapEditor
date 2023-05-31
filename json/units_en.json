@@ -1,0 +1,1404 @@
+{
+"_comment": "MECHANICAL FACULTY W1",
+"w1d": {
+"name": "W1D - Dean's office",
+"aliases": null,
+"web": "http://mechaniczny.p.lodz.pl",
+"relations": {
+"w1": [
+"a22"
+]
+}
+},
+"w1i11": {
+"name": "I11 - Institute of Materials Engineering",
+"aliases": null,
+"web": "http://iim.p.lodz.pl",
+"relations": {
+"w1": [
+"a18",
+"a20",
+"a21",
+"a22"
+]
+}
+},
+"w1i12": {
+"name": "I12 - Institute of Fluid Flow Machinery",
+"aliases": null,
+"web": "http://imp.p.lodz.pl",
+"relations": {
+"w1": [
+"a19",
+"a20",
+"a22",
+"b13"
+]
+}
+},
+"w113": {
+"name": "I13 - Institute of Machine Tools and Production Engineering",
+"aliases": null,
+"web": "http://ioitbm.p.lodz.pl",
+"relations": {
+"w1": [
+"a18",
+"a20",
+"a22"
+]
+}
+},
+"w1k11": {
+"name": "K11 - Department of Automatic Control, Biomechanics and Mechatronics",
+"aliases": null,
+"web": "http://abm.p.lodz.pl",
+"relations": {
+"w1": [
+"a22"
+]
+}
+},
+"w1k12": {
+"name": "K12 - Department of Strength of Materials and Structural Engineering",
+"aliases": null,
+"web": "http://kwm.p.lodz.pl",
+"relations": {
+"w1": [
+"a22"
+]
+}
+},
+"w1k13": {
+"name": "K13 - Department of Machine Dynamics",
+"aliases": null,
+"web": "http://kdm.p.lodz.pl",
+"relations": {
+"w1": [
+"a22"
+]
+}
+},
+"w1k14": {
+"name": "K14 - Department of Material Technologies and Production Systems",
+"aliases": null,
+"web": "http://k17.p.lodz.pl",
+"relations": {
+"w1": [
+"a20",
+"a22"
+]
+}
+},
+"w1k15": {
+"name": "K15 - Department of Vehicles and Fundamentals of Machine Design",
+"aliases": null,
+"web": "http://pojazdy.p.lodz.pl",
+"relations": {
+"w1": [
+"a18",
+"a22"
+]
+}
+},
+"w1fi": {
+"name": "Factory of Engineers of the 21st Century",
+"aliases": null,
+"web": "http://fabrykainzynierow.pl",
+"relations": {
+"w1": [
+"a18"
+]
+}
+},
+"w1as": {
+"name": "Sołtan Auditorium",
+"aliases": null,
+"web": null,
+"relations" : {
+    "w1": [
+      "a19"
+    ]
+  }
+},
+    "w1bib": {
+      "name": "Mechanics Library",
+      "aliases": null,
+      "web": null,
+      "relations": {
+        "w1": [
+          "a19"
+        ]
+      }
+    },
+    "_comment": "FACULTY OF ELECTRICAL, ELECTRONIC, COMPUTER AND CONTROL ENGINEERING W2",
+    "w2d": {
+      "name": "W2D - Dean's Office",
+      "symbol": "W2D",
+      "aliases": null,
+      "web": "http:\/\/weeia.p.lodz.pl",
+      "relations": {
+        "w2": [
+          "a10"
+        ]
+      }
+    },
+    "w2i21": {
+      "name": "I21 - Institute of Automation",
+      "symbol": "W2I21",
+      "aliases": null,
+      "web": "http:\/\/automatyka.p.lodz.pl",
+      "relations": {
+        "w2": [
+          "a10",
+          "a12b",
+          "c3"
+        ]
+      }
+    },
+    "w2i22": {
+      "name": "I22 - Institute of Electrical Power Engineering",
+      "aliases": null,
+      "web": "http:\/\/i15.p.lodz.pl",
+      "relations": {
+        "w2": [
+          "a11",
+          "b9",
+          "c3"
+        ]
+      }
+    },
+    "w2i23": {
+      "name": "I23 - Institute of Electronics",
+      "aliases": null,
+      "web": "http:\/\/eletel.p.lodz.pl",
+      "relations": {
+        "w2": [
+          "b9"
+        ]
+      }
+    },
+    "w2i24": {
+        "name": "I24 - Institute of Applied Informatics",
+        "aliases": null,
+        "web": "http:\/\/iis.p.lodz.pl",
+        "relations": {
+          "w2": [
+            "a10",
+            "c7",
+            "c6",
+            "c3"
+          ]
+        }
+      },
+      "w2i25": {
+        "name": "I25 - Institute of Mechatronics and Information Systems",
+        "aliases": null,
+        "web": "http:\/\/www.imsi.pl",
+        "relations": {
+          "w2": [
+            "a12b"
+          ]
+        }
+      },
+      "w2i26": {
+        "name": "I26 - Institute of Electrical Engineering Systems",
+        "aliases": "aquarium",
+        "web": "http:\/\/isie.p.lodz.pl",
+        "relations": {
+          "w2": [
+            "a10",
+            "c3"
+          ]
+        }
+      },
+      "w2k21": {
+        "name": "K21 - Department of Electrical Apparatus",
+        "aliases": null,
+        "web": "http:\/\/kae.p.lodz.pl",
+        "relations": {
+          "w2": [
+            "a12a:0"
+          ]
+        }
+      },
+      "w2k22": {
+        "name": "K22 - Department of Microelectronics and Computer Science",
+        "aliases": "aquarium dmcs",
+        "web": "http:\/\/dmcs.p.lodz.pl",
+        "relations": {
+          "w2": [
+            "b18"
+          ]
+        }
+      },
+      "w2k23": {
+        "name": "K23 - Department of Semiconductor Devices and Optoelectronics",
+        "aliases": null,
+        "web": "http:\/\/www.dsod.pl",
+        "relations": {
+          "w2": [
+            "b9"
+          ]
+        }
+      },
+        "_comment": "FACULTY OF CHEMISTRY W3",
+        "w3d": {
+        "name": "W3D - Dean's Office",
+        "aliases": null,
+        "web": "http://chemia.p.lodz.pl",
+        "relations": {
+        "w3": [
+        "a27"
+        ]
+        }
+        },
+        "w3i31": {
+        "name": "I31 - Institute of General and Ecological Chemistry",
+        "aliases": null,
+        "web": "http://ichoie.p.lodz.pl",
+        "relations": {
+        "w3": [
+        "a27",
+        "a26",
+        "a33"
+        ]
+        }
+        },
+        "w3i32": {
+        "name": "I32 - Institute of Organic Chemistry",
+        "aliases": null,
+        "web": "http://chorg.p.lodz.pl",
+        "relations": {
+        "w3": [
+        "a27"
+        ]
+        }
+        },
+        "w3i33": {
+        "name": "I33 - Institute of Polymer Technology and Dyes",
+        "aliases": null,
+        "web": "http://pb.p.lodz.pl",
+        "relations": {
+        "w3": [
+        "a8",
+        "a9",
+        "a24"
+        ]
+        }
+        },
+        "w3i34": {
+        "name": "I34 - Interdepartmental Institute of Radiation Technique",
+        "aliases": null,
+        "web": "http://mitr.p.lodz.pl",
+        "relations": {
+        "w3": [
+        "c1",
+        "c2",
+        "c18",
+        "a27",
+        "a2"
+        ]
+        }
+        },
+        "w3k31": {
+        "name": "K31 - Department of Molecular Physics",
+        "aliases": null,
+        "web": "http://www.kfm.p.lodz.pl/",
+        "relations": {
+        "w3": [
+        "a27"
+        ]
+        }
+        },
+        "w3bc": {
+        "name": "Chemical Library",
+        "aliases": null,
+        "web": "n/a",
+        "relations": {
+        "w3": [
+        "a26"
+        ]
+        }
+        },
+        "_comment": "FACULTY OF MATERIALS TECHNOLOGY AND TEXTILE DESIGN W4",
+        "w4d": {
+        "name": "W4D - Dean's Office",
+        "aliases": null,
+        "web": "http://style.p.lodz.pl",
+        "relations": {
+        "w4": [
+        "a33"
+        ]
+        }
+        },
+        "w4i41": {
+          "name": "I41 - Institute of Textile Architecture",
+          "aliases": null,
+          "web": "http://iat.p.lodz.pl",
+          "relations": {
+          "w4": [
+          "a33",
+          "a16"
+          ]
+          }
+          },
+          "w4i42": {
+          "name": "I42 - Institute of Textile and Polymer Composite Materials Science",
+          "aliases": null,
+          "web": null,
+          "relations": {
+          "w4": [
+          "a33"
+          ]
+          }
+          },
+          "w4k41": {
+          "name": "K41 - Department of Mechanical Engineering, Technical Informatics, and Polymer Materials Chemistry",
+          "aliases": null,
+          "web": null,
+          "relations": {
+          "w4": [
+          "a33"
+          ]
+          }
+          },
+          "w4k42": {
+          "name": "K42 - Department of Knitting Technology and Textile Machinery",
+          "aliases": null,
+          "web": null,
+          "relations": {
+          "w4": [
+          "a33"
+          ]
+          }
+          },
+          "_comment": "FACULTY OF BIOTECHNOLOGY AND FOOD SCIENCES",
+          "w5d": {
+          "name": "W5D - Dean's Office",
+          "aliases": null,
+          "web": "http://binoz.p.lodz.pl",
+          "relations": {
+          "w5": [
+          "a4"
+          ]
+          }
+          },
+          "w5i51": {
+          "name": "I51 - Institute of Molecular and Industrial Biotechnology",
+          "aliases": null,
+          "web": "https://www.binoz.p.lodz.pl/en/institute-of-molecular-and-industrial-biotechnology",
+          "relations": {
+          "w5": [
+          "a2",
+          "a4"
+          ]
+          }
+          },
+          "w5i52": {
+          "name": "I52 - Institute of Natural Resources and Cosmetics",
+          "aliases": null,
+          "web": "https://www.binoz.p.lodz.pl/en/institute-of-natural-resources-and-cosmetics",
+          "relations": {
+          "w5": [
+          "a2",
+          "a4"
+          ]
+          }
+          },
+          "w5i53": {
+          "name": "I53 - Institute of Fermentation Technology and Microbiology",
+          "aliases": null,
+          "web": "http://www.binoz.p.lodz.pl/en/institute-of-fermentation-technology-and-microbiology",
+          "relations": {
+          "w5": [
+          "a2",
+          "a4",
+          "a3"
+          ]
+          }
+          },
+          "w5i54": {
+          "name": "I54 - Institute of Food Technology and Analysis",
+          "aliases": null,
+          "web": "http://www.binoz.p.lodz.pl/en/institute-of-food-technology-and-analysis",
+          "relations": {
+          "w5": [
+          "a4",
+          "a2"
+          ]
+          }
+          },
+          "w5k51": {
+            "name": "K51 - Department of Environmental Biotechnology",
+            "aliases": null,
+            "web": null,
+            "relations": {
+            "w5": [
+            "a4",
+            "a2"
+            ]
+            }
+            },
+            "_comment": "FACULTY OF CIVIL ENGINEERING, ARCHITECTURE, AND ENVIRONMENTAL ENGINEERING",
+            "w6d": {
+            "name": "W6D - Dean's Office",
+            "aliases": null,
+            "web": "http://www.bais.p.lodz.pl",
+            "relations": {
+            "w6": [
+            "b7"
+            ]
+            }
+            },
+            "w6i61": {
+            "name": "I61 - Institute of Architecture and Urban Planning",
+            "aliases": null,
+            "web": "http://bais.p.lodz.pl/index.php/i35",
+            "relations": {
+            "w6": [
+            "b6",
+            "b16"
+            ]
+            }
+            },
+            "w6i62": {
+            "name": "I62 - Institute of Environmental Engineering and Building Installations",
+            "aliases": null,
+            "web": "http://bais.p.lodz.pl/index.php/kontakt-i612",
+            "relations": {
+            "w6": [
+            "b7"
+            ]
+            }
+            },
+            "w6k61": {
+            "name": "K61 - Department of Concrete Construction",
+            "aliases": null,
+            "web": "http://www.bais.p.lodz.pl/index.php/kontakt-k65",
+            "relations": {
+            "w6": [
+            "b7"
+            ]
+            }
+            },
+            "w6k62": {
+            "name": "K62 - Department of Structural Physics and Building Materials",
+            "aliases": null,
+            "web": "http://kfb-lx.p.lodz.pl",
+            "relations": {
+            "w6": [
+            "b7"
+            ]
+            }
+            },
+            "w6k63": {
+            "name": "K63 - Department of Geotechnics and Civil Engineering Structures",
+            "aliases": null,
+            "web": "http://www.bais.p.lodz.pl/index.php/kontakt-k66",
+            "relations": {
+            "w6": [
+            "b7"
+            ]
+            }
+            },
+            "w6k64": {
+            "name": "K64 - Department of Structural Mechanics",
+            "aliases": null,
+            "web": "http://www.kmk.p.lodz.pl",
+            "relations": {
+            "w6": [
+            "b7"
+            ]
+            }
+            },
+            "w6k65": {
+            "name": "K65 - Department of Materials Mechanics",
+            "aliases": null,
+            "web": "http://kmm.p.lodz.pl",
+            "relations": {
+            "w6": [
+            "b7"
+            ]
+            }
+            },
+            "_comment": "FACULTY OF TECHNICAL PHYSICS, INFORMATION TECHNOLOGY, AND APPLIED MATHEMATICS",
+            "w7d": {
+            "name": "W7D - Dean's Office",
+            "aliases": null,
+            "web": "http://ftims.p.lodz.pl",
+            "relations": {
+            "w7": [
+            "b11"
+            ]
+            }
+            },
+            "w7i71": {
+            "name": "I71 - Institute of Physics",
+            "aliases": null,
+            "web": "https://fizyka.p.lodz.pl",
+            "relations": {
+            "w7": [
+            "b14",
+            "b15"
+            ]
+            }
+            },
+            "w7i72": {
+            "name": "I72 - Institute of Computer Science",
+            "aliases": null,
+            "web": "http://it.p.lodz.pl",
+            "relations": {
+            "w7": [
+            "b9"
+            ]
+            }
+            },
+            "w7i73": {
+            "name": "I73 - Institute of Mathematics",
+            "aliases": null,
+            "web": "http://im.p.lodz.pl",
+            "relations": {
+            "w7": [
+            "b9"
+            ]
+            }
+          },         
+"_comment": "FACULTY OF MANAGEMENT AND PRODUCTION ENGINEERING",
+"w8d": {
+"name": "W8D - Dean's Office",
+"aliases": null,
+"web": "http://wzip.p.lodz.pl",
+"relations": {
+"w8": [
+"d3"
+]
+}
+},
+"wswo39": {
+"name": "W8 - Lecture Hall o39",
+"aliases": null,
+"web": "http://wzip.p.lodz.pl",
+"relations": {
+"w8": [
+"d5"
+]
+}
+},
+"wprac": {
+"name": "W8 - Computer Labs",
+"aliases": null,
+"web": "http://wzip.p.lodz.pl",
+"relations": {
+"w8": [
+"d4"
+]
+}
+},
+"w8i81": {
+"name": "I81 - Institute of Social Sciences and Management of Technologies",
+"aliases": null,
+"web": "http://wzip.p.lodz.pl/jednostki/instytut-nauk-spolecznych-i-zarzadzania-technologiami",
+"relations": {
+"w8": [
+"d1",
+"b9"
+]
+}
+},
+"w8k81": {
+"name": "K81 - Department of European Integration and International Marketing",
+"aliases": null,
+"web": "http://wzip.p.lodz.pl/jednostki/katedra-integracji-europejskiej-i-marketingu-miedzynarodowego",
+"relations": {
+"w8": [
+"b9"
+]
+}
+},
+"w8k82": {
+"name": "K82 - Department of Management Systems and Innovation",
+"aliases": null,
+"web": "http://wzip.p.lodz.pl/jednostki/katedra-systemow-zarzadzania-i-innowacji",
+"relations": {
+"w8": [
+"d1",
+"b9"
+]
+}
+},
+"w8k83": {
+"name": "K83 - Department of Management",
+"aliases": null,
+"web": "http://wzip.p.lodz.pl/jednostki/katedra-zarzadzania",
+"relations": {
+"w8": [
+"d1",
+"b9"
+]
+}
+},
+"w8k84": {
+"name": "K84 - Department of Production Management and Logistics",
+"aliases": null,
+"web": "http://wzip.p.lodz.pl/jednostki/katedra-zarzadzania-produkcja-i-logistyki",
+"relations": {
+"w8": [
+"b9"
+]
+}
+},
+"_comment": "FACULTY OF PROCESS AND ENVIRONMENTAL ENGINEERING",
+"w9d": {
+"name": "W9D - Dean's Office",
+"aliases": null,
+"web": "http://www.wipos.p.lodz.pl",
+"relations": {
+"w9": [
+"b4"
+]
+}
+},
+"w9k91": {
+"name": "K91 - Department of Occupational Safety Engineering",
+"aliases": null,
+"web": "http://www.wipos.p.lodz.pl/index.php?id=39&id_category=16",
+"relations": {
+"w9": [
+"a6",
+"b4"
+]
+}
+},
+"w9k92": {
+"name": "K92 - Department of Bioprocess Engineering",
+"aliases": null,
+"web": "http://www.wipos.p.lodz.pl/index.php?id=39&id_category=12",
+"relations": {
+"w9": [
+"a1",
+"a6",
+"b5"
+]
+}
+},
+"w9k93": {
+"name": "K93 - Department of Chemical Engineering",
+"aliases": null,
+"web": "http://www.wipos.p.lodz.pl/index.php?id=39&id_category=11",
+"relations": {
+"w9": [
+"a1",
+"a6"
+]
+}
+},
+"w9k94": {
+"name": "K94 - Department of Molecular Engineering",
+"aliases": null,
+"web": "http://www.wipos.p.lodz.pl/index.php?id=39&id_category=51",
+"relations": {
+"w9": [
+"a1",
+"a6",
+"b10"
+]
+}
+},
+"w9k95": {
+"name": "K95 - Department of Environmental Engineering",
+"aliases": null,
+"web": "http://wipos.p.lodz.pl",
+"relations": {
+"w9": [
+"a1",
+"a6",
+"b4"
+]
+}
+},
+"w9lf": {
+"name": "LabFactor",
+"aliases": null,
+"web": "http://labfactor.wipos.p.lodz.pl",
+"relations": {
+"w9": [
+"a1"
+]
+}
+},
+"_comment": "IT Units",
+"it_uci": {
+"name": "University Computing Center",
+"aliases": null,
+"web": "http://uci.p.lodz.pl",
+"relations": {
+"it": [
+"a5",
+"a10",
+"b22"
+]
+}
+},
+"itcti": {
+"name": "Center for Information Technology",
+"aliases": "cti",
+"web": "http://cti.p.lodz.pl",
+"relations": {
+"it": [
+"b19"
+]
+}
+},
+"itcm": {
+"name": "Multimedia Center",
+"aliases": "cm",
+"web": "http://cm.p.lodz.pl",
+"relations": {
+"it": [
+"a33:0"
+]
+}
+},
+"itcel": {
+"name": "E-Learning Center",
+"aliases": "cel",
+"web": "http://cel.p.lodz.pl",
+"relations": {
+"it": [
+"b22"
+]
+}
+},
+"itck5g": {
+"name": "5G Competence Center",
+"aliases": "ck5g",
+"web": "http://centrumkompetencji5g.pl",
+"relations": {
+"it": [
+"a10"
+]
+}
+},
+"_comment": "University-wide Units",
+"oubb": {
+  "name": "Library of Lodz University of Technology",
+  "aliases": null,
+  "web": "http:\/\/bg.p.lodz.pl",
+  "relations": {
+    "ou": [
+      "b22"
+    ]
+  }
+},
+"oumuz": {
+  "name": "Museum of Lodz University of Technology",
+  "aliases": null,
+  "web": "https:\/\/p.lodz.pl\/uczelnia\/historia-pl\/muzeum-pl",
+  "relations": {
+    "ou": [
+      "a19"
+    ]
+  }
+},
+"ouutw": {
+  "name": "University of the Third Age of Lodz University of Technology",
+  "aliases": null,
+  "web": "http:\/\/www.p.lodz.pl\/pl\/uniwersytet-trzeciego-wieku-politechniki-lodzkiej",
+  "relations": {
+    "pw": [
+      "b25"
+    ]
+  }
+},
+"oulud": {
+  "name": "Children's University of Lodz University of Technology",
+  "aliases": null,
+  "web": "http:\/\/www.p.lodz.pl\/pl\/lud",
+  "relations": {
+    "ou": [
+      "b22"
+    ]
+  }
+},
+"oucwgitt": {
+  "name": "Center for Cooperation with Business, Innovation, and Technology Transfer of Lodz University of Technology",
+  "aliases": null,
+  "web": null,
+  "relations": {
+    "ou": [
+      "c15"
+    ]
+  }
+},
+"kolgp": {
+  "name": "Collegium of Spatial Economics",
+  "aliases": null,
+  "web": "",
+  "relations": {
+    "kol": [
+      "b7"
+    ]
+  }
+},
+"koll": {
+  "name": "Collegium of Logistics",
+  "aliases": null,
+  "web": "http:\/\/ftims.p.lodz.pl\/course\/view.php?id=10",
+  "relations": {
+    "kol": [
+      "b9"
+    ]
+  }
+},
+"kolt": {
+  "name": "Collegium of Commodity Science",
+  "aliases": null,
+  "web": "",
+  "relations": {
+    "kol": [
+      "a33"
+    ]
+  }
+},
+"pwipip": {
+  "name": "Center for Papermaking and Printing of Lodz University of Technology",
+  "aliases": null,
+  "web": "http:\/\/inpap.p.lodz.pl\/",
+  "relations": {
+    "pw": [
+      "b17"
+    ]
+  }
+},
+"pwcditlfpl": {
+  "name": "Center for Diagnostic and Laser Therapy of Lodz University of Technology Foundation",
+  "aliases": null,
+  "web": "http:\/\/www.cdtl.pl\/",
+  "relations": {
+    "pw": [
+      "b12"
+    ]
+  }
+},
+"pwplpl": {
+  "name": "Medical Clinic of Lodz University of Technology",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/lista\/poradnia-lekarska",
+  "relations": {
+    "pw": [
+      "b12"
+    ]
+  }
+},
+"pwcj": {
+  "name": "Language Center of Lodz University of Technology [S2]",
+  "aliases": "cj",
+  "web": "http:\/\/cj.p.lodz.pl\/",
+  "relations": {
+    "pw": [
+      "b24",
+      "b25"
+    ]
+  }
+},
+"pwcnmif": {
+  "name": "Center for Teaching Mathematics and Physics [CMF]",
+  "aliases": null,
+  "web": "http:\/\/cmf.p.lodz.pl\/",
+  "relations": {
+    "pw": [
+      "c3"
+    ]
+  }
+},
+"pwcs": {
+  "name": "Sports Center of Lodz University of Technology",
+  "aliases": null,
+  "web": "http:\/\/azs.p.lodz.pl\/lokalizacja-obiektu\/sala-centrum-sportu-politechniki-lodzkiej\/",
+  "relations": {
+    "pw": [
+      "c4"
+    ]
+  }
+},
+"pwlacsd": {
+  "name": "Academic Sports and Educational Center of Lodz University of Technology",
+  "aliases": null,
+  "web": "http:\/\/lacsd.p.lodz.pl\/",
+  "relations": {
+    "pw": [
+      "b28"
+    ]
+  }
+},
+"pwife": {
+  "name": "International Education Center IFE",
+  "aliases": null,
+  "web": "http:\/\/www.ife.p.lodz.pl\/",
+  "relations": {
+    "pw": [
+      "a16"
+    ]
+  }
+},
+"pwdon": {
+  "name": "Office for Persons with Disabilities",
+  "aliases": null,
+  "web": "http:\/\/bon.p.lodz.pl\/",
+  "relations": {
+    "pw": [
+      "a30"
+    ]
+  }
+},
+"pwacz": {
+  "name": "Academic Trust Center",
+  "aliases": null,
+  "web": "https:\/\/sites.google.com\/site\/aczpolitechlodz\/o-acz-pl",
+  "relations": {
+    "pw": [
+      "a30"
+    ]
+  }
+},
+"oa1ds": {
+  "name": "Residential Hall I",
+  "aliases": "Akademik 1",
+  "web": "http:\/\/ids.p.lodz.pl\/",
+  "relations": {
+    "oa": [
+      "c14"
+    ]
+  }
+},
+"oa2ds": {
+  "name": "Residential Hall II",
+  "aliases": "Akademik 2",
+  "web": "https:\/\/samorzad.p.lodz.pl\/osiedle-akademickie\/ii-dom-studenta",
+  "relations": {
+    "oa": [
+      "c13"
+    ]
+  }
+},
+"oapl": {
+  "name": "Medical Clinics",
+  "aliases": null,
+  "web": "http:\/\/www.adamed.net.pl\/pl\/5936.php",
+  "relations": {
+    "oa": [
+      "c13"
+    ]
+  }
+},
+"oapoczta": {
+  "name": "Post Office",
+  "aliases": null,
+  "web": null,
+  "relations": {
+    "oa": [
+      "c13"
+    ]
+  }
+},
+"oa3ds": {
+  "name": "Residential Hall III",
+  "aliases": "Akademik 3",
+  "web": "N/A",
+  "relations": {
+    "oa": [
+      "c12"
+    ]
+  }
+},
+"oaks": {
+  "name": "Student Club",
+  "aliases": null,
+  "web": "http:\/\/www.futurysta.pl\/",
+  "relations": {
+    "oa": [
+      "c12"
+    ]
+  }
+},
+"oa4ds": {
+  "name": "Residential Hall IV",
+  "aliases": "Akademik 4",
+  "web": "https:\/\/samorzad.p.lodz.pl\/osiedle-akademickie\/iv-dom-studenta",
+  "relations": {
+    "oa": [
+      "c11"
+    ]
+  }
+},
+"oacotton": {
+  "name": "Student Club Cotton",
+  "aliases": null,
+  "web": "http:\/\/cotton.pizza\/",
+  "relations": {
+    "oa": [
+      "c11"
+    ]
+  }
+},
+"oa5ds": {
+  "name": "Residential Hall V",
+  "aliases": "Akademik 5",
+  "web": "https:\/\/samorzad.p.lodz.pl\/osiedle-akademickie\/v-dom-studenta",
+  "relations": {
+    "oa": [
+      "c16"
+    ]
+  }
+},
+"oa6ds": {
+  "name": "Residential Hall VI",
+  "aliases": "Akademik 6",
+  "web": "https:\/\/samorzad.p.lodz.pl\/osiedle-akademickie\/vi-dom-studenta",
+  "relations": {
+    "oa": [
+      "c17"
+    ]
+  }
+},
+"oa7ds": {
+  "name": "Residential Hall VII",
+  "aliases": "Akademik 7",
+  "web": "http:\/\/7ds.pl\/",
+  "relations": {
+    "oa": [
+      "c5"
+    ]
+  }
+},
+"oa8ds": {
+  "name": "Residential Hall VIII",
+  "aliases": "Akademik 8",
+  "web": "https:\/\/samorzad.p.lodz.pl\/osiedle-akademickie\/viii-dom-studenta",
+  "relations": {
+    "oa": [
+      "c9"
+    ]
+  }
+},
+"oa9ds": {
+  "name": "Residential Hall IX",
+  "aliases": "Akademik 9",
+  "web": "https:\/\/samorzad.p.lodz.pl\/osiedle-akademickie\/ix-dom-studenta",
+  "relations": {
+    "oa": [
+      "e1"
+    ]
+  }
+},
+"oadoa": {
+  "name": "Director of the Academic Campus",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/administracja-osiedla-akademickiego-politechniki-lodzkiej",
+  "relations": {
+    "oa": [
+      "c15"
+    ]
+  }
+},
+"oasamorzad": {
+  "name": "Student Council",
+  "aliases": null,
+  "web": "https:\/\/samorzad.p.lodz.pl\/",
+  "relations": {
+    "oa": [
+      "c15"
+    ]
+  }
+},
+"oasbk": {
+  "name": "Career Office Section",
+  "aliases": null,
+  "web": "https:\/\/www.biurokarier.p.lodz.pl",
+  "relations": {
+    "oa": [
+      "c15"
+    ]
+  }
+},
+"oastolowka": {
+  "name": "Student Canteen",
+  "aliases": null,
+  "web": "http:\/\/serenissimapolska.pl",
+  "relations": {
+    "oa": [
+      "c15"
+    ]
+  }
+},
+"oaos": {
+  "name": "Student Organizations",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/organizacje-studenckie-0",
+  "relations": {
+    "oa": [
+      "c15"
+    ]
+  }
+},
+"oaswk": {
+  "name": "Conference and Event Hall",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/sala-widowiskowa",
+  "relations": {
+    "oa": [
+      "c15"
+    ]
+  }
+},
+"admrektorat": {
+  "name": "Rector's Office",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/wladze",
+  "relations": {
+    "adm": [
+      "b1"
+    ]
+  }
+},
+"admrp": {
+  "name": "University Spokesperson",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/biuro-prasowe",
+  "relations": {
+    "adm": [
+      "b2"
+    ]
+  }
+},
+"admdp": {
+  "name": "Promotion Department",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/biuro-prasowe",
+  "relations": {
+    "adm": [
+      "b2"
+    ]
+  }
+},
+"admraw": {
+  "name": "Internal Audit Department",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/biuro-prasowe",
+  "relations": {
+    "adm": [
+      "b2"
+    ]
+  }
+},
+"admbhp": {
+  "name": "Occupational Health and Safety Department",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/biuro-prasowe",
+  "relations": {
+    "adm": [
+      "b2"
+    ]
+  }
+},
+"admd": {
+  "name": "Research Department",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/",
+  "relations": {
+    "adm": [
+      "a27"
+    ]
+  }
+},
+"amddwzz": {
+  "name": "International Cooperation Department",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/biuro-prasowe",
+  "relations": {
+    "adm": [
+      "b3"
+    ]
+  }
+},
+"admkwestura": {
+  "name": "Chancellery",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/administracja-rektorska",
+  "relations": {
+    "adm": [
+      "a17"
+    ]
+  }
+},
+"admdo": {
+  "name": "Human Capital Management Center",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/administracja-rektorska",
+  "relations": {
+    "adm": [
+      "a17"
+    ]
+  }
+},
+"admoz": {
+  "name": "Organization and Management Department",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/administracja-rektorska",
+  "relations": {
+    "adm": [
+      "b19"
+    ]
+  }
+},
+"admrur": {
+  "name": "University Development Department",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/uczelnia\/struktura-uczelni#dzial-rozwoju-uczelni-rur",
+  "relations": {
+    "adm": [
+      "b19"
+    ]
+  }
+},
+"admdpr": {
+  "name": "Legal Department",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/administracja-rektorska",
+  "relations": {
+    "adm": [
+      "b19"
+    ]
+  }
+},
+"admsr": {
+  "name": "Recruitment Department",
+  "aliases": null,
+  "web": "http:\/\/rekrutacja.p.lodz.pl\/",
+  "relations": {
+    "adm": [
+      "a13"
+    ]
+  }
+},
+"admsd": {
+  "name": "Diploma Section",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/sekcja-dyplomow",
+  "relations": {
+    "adm": [
+      "a13"
+    ]
+  }
+},
+"admkanclerz": {
+  "name": "Chancellor",
+  "aliases": null,
+  "web": "https:\/\/www.p.lodz.pl\/pl\/wladze",
+  "relations": {
+    "adm": [
+      "a28"
+    ]
+  }
+},
+"admzz": {
+  "name": "Trade Unions",
+  "aliases": null,
+  "web": "http:\/\/www.znp.p.lodz.pl\/",
+  "relations": {
+    "adm": [
+      "a28"
+    ]
+  }
+},
+"admzzs": {
+  "name": "Solidarity Union",
+  "aliases": null,
+  "web": "http:\/\/www.solidarnosc.p.lodz.pl\/",
+  "relations": {
+    "adm": [
+      "a28"
+    ]
+  }
+},
+"sa36": {
+  "name": "A36 Gatehouse",
+  "aliases": null,
+  "web": null,
+  "relations": {
+    "security": [
+      "a36"
+    ]
+  }
+},
+"sa32": {
+  "name": "A32 Gatehouse",
+  "aliases": null,
+  "web": "http:\/\/p.lodz.pl",
+  "relations": {
+    "security": [
+      "a32"
+    ]
+  }
+},
+"sa23": {
+  "name": "A23 Gatehouse",
+  "aliases": null,
+  "web": "http:\/\/p.lodz.pl",
+  "relations": {
+    "security": [
+      "a23"
+    ]
+  }
+},
+"sb8": {
+  "name": "B8 Gatehouse",
+  "aliases": null,
+  "web": "http:\/\/p.lodz.pl",
+  "relations": {
+    "security": [
+      "b8"
+    ]
+  }
+},
+"sb23": {
+  "name": "B23 Gatehouse",
+  "aliases": null,
+  "web": "http:\/\/p.lodz.pl",
+  "relations": {
+    "security": [
+      "b23"
+    ]
+  }
+},
+"sb20": {
+  "name": "B20 Gatehouse",
+  "aliases": null,
+  "web": "http:\/\/p.lodz.pl",
+  "relations": {
+    "security": [
+      "b20"
+    ]
+  }
+},
+"alchem": {
+  "name": "Alchemium",
+  "aliases": null,
+  "web": "http:\/\/p.lodz.pl",
+  "relations": {
+    "w3": [
+      "a34"
+    ]
+  }
+},
+"bpasiv": {
+  "name": "Passive Building",
+  "aliases": null,
+  "web": "http:\/\/p.lodz.pl",
+  "relations": {
+    "adm": [
+      "a15"
+    ]
+  }
+}
+}
